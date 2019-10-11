@@ -1,0 +1,4 @@
+<launch>
+  <node name="emgbtn" pkg="uoa_poc2_emgbtn" type="emgbtn.py" output="screen">
+  </node>
+</launch>
