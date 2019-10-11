@@ -1,4 +1,5 @@
 <launch>
   <node name="emgbtn" pkg="uoa_poc2_emgbtn" type="emgbtn.py" output="screen">
+    <param name="gpio/btn_pin" value="5"/>
   </node>
 </launch>
